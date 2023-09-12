@@ -55,7 +55,7 @@ function CollectInfoFromGroups {
     } 
 
     # Save into file
-    $fileName = "ColleсtingInfo.txt"
+    $fileName = "CollectingInfo.txt"
     if (-Not (Test-Path -Path "$infoFilePath\$fileName" -PathType Leaf)) {
         New-Item -Path $infoFilePath -Name $fileName | Out-Null
     }
